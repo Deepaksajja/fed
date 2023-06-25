@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.bannerBgImage{
+    height: 150vh;
+    background: url("images/bannerImage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    transform:translate(-50%,-50%);
+    color:black;
+}
+
+.bannerTitle{
+    font-size: 2rem;
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+}
+.card:hover {
+     background-color:lightgrey;
+     border:2px solid black;
+}
+.bIcon{
+    width:100%;
+    text-align: center;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border:2px solid black;
+
+}
+.education{
+    height: 100vh;
+    background: url("/CSS/images/Education.jpg");
+    background-size:cover;
+    position:relative;
+
+}
